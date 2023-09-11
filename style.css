@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    border-radius: 2px;
+}
+
+.add-win {
+    width: 450px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius: 4px;
+}
+
+.text-adding {
+    border: 1.2px solid rgba(51, 51, 51, 0.39);
+    width: 285px;
+    height: 35px;
+    margin-left: 4px;
+    margin-top: 11px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.text-adding:hover {
+    border: 1.2px solid rgba(51, 51, 51, 0.829);
+}
+
+.but-adding {
+    width: 90px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: purple;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but-adding:hover {
+    scale: 0.9;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.text-tresh {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text-task {
+    font-weight: 400;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.705);
+    margin-top: 5px;
+    cursor: default;
+    transition: 0.5s;
+}
+
+.text-task:hover {
+    scale: 1.05;
+}
+
+.trash {
+    background-size: cover;
+    width: 29px;
+    height: 29px;
+    margin-top: 5px;
+}
+
+.btn-trash {
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: -35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-trash:hover {
+    scale: 1.1;
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none !important;
+}
